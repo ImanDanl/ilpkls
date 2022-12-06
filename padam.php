@@ -15,6 +15,6 @@ if (isset($_GET["id"] ) ) {
     
 }
 
-header("location:/megaholdings/index.php");
+header("location:/ILPKLS/index.php");
 exit;
 ?>
