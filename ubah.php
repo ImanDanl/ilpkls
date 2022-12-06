@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     // GET method: Show the data of the pelajar
 
     if (!isset($_GET["id"] ) ) {
-        header("location:/megaholdings/index.php");
+        header("location:/ILPKLS/index.php");
         exit;
     }
 
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $row = $result->fetch_assoc();
 
     if (!$row) {
-        header("location:/megaholdings/index.php");
+        header("location:/ILPKLS/index.php");
         exit;
     }
 
@@ -70,7 +70,7 @@ else {
 
                 $successMessage = "Pelajar telah berjaya di ubah";
 
-                header("location:/megaholdings/index.php");
+                header("location:/ILPKLS/index.php");
                 exit;
             }
 
@@ -84,7 +84,7 @@ else {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mega Holdings</title>
+    <title>ILPKLS</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
