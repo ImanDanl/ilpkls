@@ -10,7 +10,7 @@
 <body>
     <div class="container my-5">
         <h2>Senarai Pelajar</h2>
-        <a class="btn btn-primary" href="/megaholdings/tambahpelajar.php" role="button">Tambah Pelajar</a>
+        <a class="btn btn-primary" href="/ILPKLS/tambahpelajar.php" role="button">Tambah Pelajar</a>
         <br>
         <table class="table">
             <thead>
